@@ -1,0 +1,201 @@
+word,stress_rule,pair_partner,corpus_weight,detail
+más,pair,mas,91,"diacritic: same spelling, different word"
+Jesús,vowel-n-s,,73,ends in vowel/n/s but stressed on the LAST syllable → tilde
+tú,pair,tu,62,"diacritic: same spelling, different word"
+él,pair,el,53,"diacritic: same spelling, different word"
+aquí,vowel-n-s,,49,ends in vowel/n/s but stressed on the LAST syllable → tilde
+amén,vowel-n-s,,48,ends in vowel/n/s but stressed on the LAST syllable → tilde
+mí,pair,mi,44,"diacritic: same spelling, different word"
+corazón,vowel-n-s,,31,ends in vowel/n/s but stressed on the LAST syllable → tilde
+día,exception,,31,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+así,vowel-n-s,,25,ends in vowel/n/s but stressed on the LAST syllable → tilde
+está,vowel-n-s,,25,ends in vowel/n/s but stressed on the LAST syllable → tilde
+sé,pair,se,22,"diacritic: same spelling, different word"
+jóvenes,exception,,19,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+estás,vowel-n-s,,19,ends in vowel/n/s but stressed on the LAST syllable → tilde
+después,vowel-n-s,,19,ends in vowel/n/s but stressed on the LAST syllable → tilde
+Filemón,vowel-n-s,,19,ends in vowel/n/s but stressed on the LAST syllable → tilde
+esté,vowel-n-s,,18,ends in vowel/n/s but stressed on the LAST syllable → tilde
+sabiduría,exception,,18,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+están,vowel-n-s,,16,ends in vowel/n/s but stressed on the LAST syllable → tilde
+qué,pair,que,16,"diacritic: same spelling, different word"
+propósito,exception,,16,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+atención,vowel-n-s,,16,ends in vowel/n/s but stressed on the LAST syllable → tilde
+versículo,exception,,16,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+sermón,vowel-n-s,,15,ends in vowel/n/s but stressed on the LAST syllable → tilde
+demás,vowel-n-s,,12,ends in vowel/n/s but stressed on the LAST syllable → tilde
+acércate,exception,,12,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+déjenme,exception,,12,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+versículos,exception,,12,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+división,vowel-n-s,,10,ends in vowel/n/s but stressed on the LAST syllable → tilde
+sí,pair,si,10,"diacritic: same spelling, different word"
+también,vowel-n-s,,10,ends in vowel/n/s but stressed on the LAST syllable → tilde
+razón,vowel-n-s,,10,ends in vowel/n/s but stressed on the LAST syllable → tilde
+ningún,vowel-n-s,,10,ends in vowel/n/s but stressed on the LAST syllable → tilde
+relación,vowel-n-s,,10,ends in vowel/n/s but stressed on the LAST syllable → tilde
+días,exception,,10,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+nomás,vowel-n-s,,9,ends in vowel/n/s but stressed on the LAST syllable → tilde
+líderes,exception,,9,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+teléfono,exception,,9,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+últimos,exception,,9,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+permítanme,exception,,9,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+unión,vowel-n-s,,9,ends in vowel/n/s but stressed on the LAST syllable → tilde
+espíritu,exception,,8,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+todavía,exception,,8,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+será,vowel-n-s,,7,ends in vowel/n/s but stressed on the LAST syllable → tilde
+cómo,pair,como,7,"diacritic: same spelling, different word"
+había,exception,,7,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+decisión,vowel-n-s,,7,ends in vowel/n/s but stressed on the LAST syllable → tilde
+débil,other,,7,ends in a consonant other than n/s but stressed on the second-to-last syllable → tilde
+resurrección,vowel-n-s,,7,ends in vowel/n/s but stressed on the LAST syllable → tilde
+último,exception,,7,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+quién,pair,quien,7,"diacritic: same spelling, different word"
+estén,vowel-n-s,,6,ends in vowel/n/s but stressed on the LAST syllable → tilde
+gustaría,exception,,6,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+desafíen,exception,,6,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+tecnologías,exception,,6,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+obstáculo,exception,,6,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+armonía,exception,,6,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+rían,exception,,6,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+permíteme,exception,,6,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+pónselo,exception,,6,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+ayúdanos,exception,,6,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+renuévanos,exception,,6,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+hónralos,exception,,6,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+perdón,vowel-n-s,,6,ends in vowel/n/s but stressed on the LAST syllable → tilde
+difíciles,exception,,6,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+debí,vowel-n-s,,6,ends in vowel/n/s but stressed on the LAST syllable → tilde
+vínculo,exception,,6,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+oración,vowel-n-s,,5,ends in vowel/n/s but stressed on the LAST syllable → tilde
+generación,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+jamás,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+resolución,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+oír,exception,,4,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+Satanás,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+nación,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+conversación,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+reconciliación,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+intención,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+cuál,pair,cual,4,"diacritic: same spelling, different word"
+sería,exception,,4,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+habría,exception,,4,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+Onésimo,exception,,4,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+eligió,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+Isaías,exception,,4,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+condenación,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+líder,other,,4,ends in a consonant other than n/s but stressed on the second-to-last syllable → tilde
+título,exception,,4,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+según,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+adoración,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+difícil,other,,4,ends in a consonant other than n/s but stressed on the second-to-last syllable → tilde
+decidió,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+amó,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+redención,vowel-n-s,,4,ends in vowel/n/s but stressed on the LAST syllable → tilde
+fácil,other,,4,ends in a consonant other than n/s but stressed on the second-to-last syllable → tilde
+éxito,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+aísle,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+disrupción,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+esperó,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+viniéramos,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+cómodos,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+política,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+tuviéramos,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+mío,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+empatía,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+eligiéramos,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+ídolos,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+háganlo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+diría,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+abrirán,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+demoníaco,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+interacción,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+hipocresía,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+pedían,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+hiciéramos,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+profesión,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+acerquémonos,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+primacía,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+agradó,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+tomó,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+pudiéramos,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+partirá,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+presentará,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+estés,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+desafiará,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+pasión,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+desafía,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+obligación,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+restauración,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+siéntate,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+óyeme,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+arrepiéntete,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+ríndete,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+suéltalo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+confíale,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+déjaselo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+mátalo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+quédate,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+supérate,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+involúcrate,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+levántalo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+somételo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+perdónalo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+vístete,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+apégate,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+transfórmate,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+repréndelo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+ayúdalo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+voltéate,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+ríe,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+diviértete,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+relájate,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+déjalo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+valóralo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+entiéndelo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+anímalo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+búsqueda,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+político,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+devoción,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+síntomas,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+carismática,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+órdenes,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+debería,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+metió,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+área,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+prosperará,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+traía,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+Valentín,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+víctimas,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+confío,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+tensión,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+dramático,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+líneas,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+práctica,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+última,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+óiganme,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+démosles,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+cuántos,pair,cuantos,3,"diacritic: same spelling, different word"
+sensación,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+escúchenme,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+piénsenlo,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+investigación,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+reúnen,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+tecnología,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+teléfonos,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+estorbándole,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+abrió,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+rompámoslas,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+pongámonos,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+compañía,exception,,3,"hiatus: the í/ú breaks the diphthong (dí-a, to-da-ví-a, o-ír)"
+entregó,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+voltéense,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+mírense,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+amaré,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+caminaré,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+darán,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+recibirán,vowel-n-s,,3,ends in vowel/n/s but stressed on the LAST syllable → tilde
+pónganse,exception,,3,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+cóctel,other,,3,ends in a consonant other than n/s but stressed on the second-to-last syllable → tilde
+bendición,vowel-n-s,,2,ends in vowel/n/s but stressed on the LAST syllable → tilde
+capítulo,exception,,2,esdrújula: stress on the 3rd-from-last syllable ALWAYS takes a tilde
+salvación,vowel-n-s,,1,ends in vowel/n/s but stressed on the LAST syllable → tilde
