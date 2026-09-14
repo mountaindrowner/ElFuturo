@@ -27,5 +27,128 @@
       { "said": "repienta", "rule": "tú positive = él form of arrepentirse", "correct": "arrepiéntete" }
     ],
     "trigger_reminder": "You already place 'que' correctly after querer, pedir, esperar, no creer, para. The trigger layer is not the gap. Only the verb after 'que' changes."
+  },
+  {
+    "unit": 2,
+    "title": "Sound and stress",
+    "systems": ["accents_orthography"],
+    "rule": "Every word has exactly one stressed syllable, and the language has one default: ends in a vowel, n, or s → stress the second-to-last syllable; ends in any other consonant → stress the last. The tilde is not decoration — it is a flag that says THIS WORD BREAKS THE DEFAULT. Say the word out loud, find the stress, check it against the default: match → no tilde; break → tilde on the stressed vowel.",
+    "mechanism": [
+      { "input": "co-ra-ZÓN (ends in n)", "op": "default says co-RA-zon; it breaks", "output": "corazón" },
+      { "input": "JÓ-ve-nes (stress 3rd from last)", "op": "esdrújula: ALWAYS breaks", "output": "jóvenes" },
+      { "input": "DÍ-a (í refuses the diphthong)", "op": "hiatus: tilde splits the vowels", "output": "día, todavía, oír" },
+      { "input": "DÉ-bil (ends in l)", "op": "default says de-BIL; it breaks", "output": "débil, difícil" },
+      { "input": "IGLE-sia, CULTO, HERMANO", "op": "match the default", "output": "no tilde at all" },
+      { "input": "él (he) vs el (the)", "op": "pair: tilde marks the stressed word", "output": "él / tú / sé / más / sí / qué" }
+    ],
+    "memorize": ["a ver (not haber)", "iba (no h)", "hay (not ay)", "viene (v, not b)", "conozco (z before c)"],
+    "exception": "The pairs (él/el, tú/tu, sé/se, más/mas, sí/si, qué/que) ignore the sound rules: both words sound the same. The tilde marks the one that carries stress in the sentence — the pronoun, the verb, the question word.",
+    "your_misses": [
+      { "said": "Cuando llegue a la iglesia (arrived)", "rule": "past yo = stressed final é", "correct": "Cuando llegué a la iglesia" },
+      { "said": "mi mama me pregunto si tu vas", "rule": "mamá breaks the default; preguntó past; tú pronoun", "correct": "mi mamá me preguntó si tú vas" },
+      { "said": "yo se que el no puede, ojala que si", "rule": "sé/él/sí are the stressed pair-words; ojalá breaks", "correct": "yo sé que él no puede, ojalá que sí" },
+      { "said": "haber si vienen los jovenes", "rule": "a ver = look and see; jóvenes esdrújula", "correct": "a ver si vienen los jóvenes" },
+      { "said": "hiba a llamarte", "rule": "iba has no h — haber does", "correct": "iba a llamarte" },
+      { "said": "yo conosco, ay muchos como el", "rule": "zc before o; hay = there is; él pronoun", "correct": "yo conozco, hay muchos como él" }
+    ],
+    "trigger_reminder": "Your ear already knows where the stress falls — you say these words right every Sunday. The gap is only the flag on paper."
+  },
+  {
+    "unit": 3,
+    "title": "Gender exceptions",
+    "systems": ["gender_exceptions"],
+    "rule": "Your agreement engine already works — once you know the gender, every adjective lands right. The gap is the lookup table, and it has exactly three corrupted zones: Greek -ma nouns are masculine (el problema); a handful of shortened -o nouns are feminine (la mano, la foto); and feminine nouns that START with a stressed a- take EL in the singular only, while staying feminine everywhere else (el agua fría, las aguas).",
+    "mechanism": [
+      { "input": "problema, tema, sistema, drama", "op": "-ma from Greek → masculine", "output": "el problema grande, el drama es" },
+      { "input": "mano (la manus), foto(grafía), moto(cicleta)", "op": "shortened feminine → feminine", "output": "la mano derecha, la foto vieja" },
+      { "input": "agua, alma, área, hambre, arma", "op": "stressed a- → EL singular, feminine agreement", "output": "el agua fría → las aguas frías" },
+      { "input": "el cura vs la cura", "op": "gender changes the meaning", "output": "la cura para el drama (never el cura = priest)" },
+      { "input": "el/la líder, el/la joven, el/la testigo", "op": "common gender: article does the work", "output": "la líder del grupo de mujeres" }
+    ],
+    "memorize": ["el día", "el mapa", "el profeta", "el planeta", "la gente ES (never son)", "las órdenes (commands) / el orden (sequence)"],
+    "exception": "EL agua is not masculine — it is feminine wearing el to avoid the a-a collision. The adjective tells the truth: el agua fría, el alma perdida, mucha hambre.",
+    "your_misses": [
+      { "said": "la problema", "rule": "-ma masculine", "correct": "el problema" },
+      { "said": "la sistema", "rule": "-ma masculine", "correct": "el sistema" },
+      { "said": "el mano", "rule": "shortened feminine", "correct": "la mano" },
+      { "said": "el foto", "rule": "la fotografía", "correct": "la foto" },
+      { "said": "la agua", "rule": "stressed a-: el singular, feminine agreement", "correct": "el agua (fría)" }
+    ],
+    "trigger_reminder": "You scored the agreement engine solid. This unit is a 50-word lookup table, not a new rule."
+  },
+  {
+    "unit": 4,
+    "title": "Se lo",
+    "systems": ["object_pronouns"],
+    "rule": "Two pronouns travel as one unit, in one fixed order: person before thing (me/te/se/nos before lo/la/los/las). When le or les would land in front of lo/la, it becomes SE — the language refuses le lo. The unit never splits: in front of a conjugated verb, glued to the end of an affirmative command or infinitive.",
+    "mechanism": [
+      { "input": "Le doy el libro (a él)", "op": "le + lo → se lo", "output": "Se lo doy" },
+      { "input": "Deja el problema a Dios", "op": "affirmative command: glue se+lo on", "output": "Déjaselo a Dios" },
+      { "input": "No dejes el problema", "op": "negative command: unit moves in front", "output": "No se lo dejes" },
+      { "input": "Voy a decir la verdad (a ustedes)", "op": "infinitive: glue or front — both correct", "output": "Voy a decírselo / Se lo voy a decir" },
+      { "input": "Pon el anillo (a ella)", "op": "pon + se + lo, tilde keeps the stress", "output": "Pónselo en el dedo" }
+    ],
+    "memorize": ["se lo doy", "se la di", "déjaselo", "pónselo", "se lo voy a decir"],
+    "exception": "The glued forms grow a tilde because the stress must not move: di → díselo, pon → pónselo, deja → déjaselo. That is Unit 2 working inside Unit 4.",
+    "your_misses": [
+      { "said": "le di (la Biblia, a él)", "rule": "le + la → se la; the thing must appear", "correct": "se la di" },
+      { "said": "voy a decir a ustedes", "rule": "the direct object never drops: it becomes lo", "correct": "se lo voy a decir" },
+      { "said": "lo dije que viniera", "rule": "telling TO someone = le (indirect)", "correct": "le dije que viniera" }
+    ],
+    "trigger_reminder": "You avoid se lo by rebuilding the sentence without pronouns. The congregation hears the difference — this unit makes the short form automatic."
+  },
+  {
+    "unit": 5,
+    "title": "Border to pulpit",
+    "systems": ["anglicism_replacement"],
+    "rule": "You already hear the anglicism — detection scored 5 of 6. The gap is the replacement reflex: every border loanword has a standard Mexican counterpart, and the swap is one word for one word — the sentence stays yours. Border Spanish is not wrong; it is a register. The pulpit register swaps the word.",
+    "mechanism": [
+      { "input": "parquear la troca en la yarda", "op": "swap each loanword", "output": "estacionar la camioneta en el patio" },
+      { "input": "aplicar por el trabajo", "op": "aplicar = apply a substance → solicitar", "output": "solicité el trabajo" },
+      { "input": "dar un raite", "op": "the Mexican word is aventón", "output": "¿me das un aventón? / ¿me llevas?" },
+      { "input": "llamar pa' atrás", "op": "calque of call back → devolver", "output": "te devuelvo la llamada" },
+      { "input": "wachar a los niños", "op": "watch → cuidar / echar un ojo", "output": "¿me cuidas a los niños?" }
+    ],
+    "memorize": ["solicitar (never aplicar por)", "el aventón (never el raite)", "devolver la llamada (never pa' atrás)", "darse cuenta (never realizar for realize)", "asistir a (never atender for attend)"],
+    "exception": "Some words stay: nomás, ratito, platicar are Northern Mexican, not anglicisms — they belong in your pulpit. The false friends are the trap: realizar, atender, soportar, aplicar all exist in Spanish with DIFFERENT meanings.",
+    "your_misses": [
+      { "said": "apliqué por el trabajo", "rule": "solicitar is the verb for applications", "correct": "solicité el trabajo" },
+      { "said": "¿me das un raite?", "rule": "aventón is the Mexican word", "correct": "¿me das un aventón? / ¿me llevas?" }
+    ],
+    "trigger_reminder": "Detection is solid — trust your ear. When it pings, the standard word is one swap away, and the Swap drill is building that reflex."
+  },
+  {
+    "unit": 6,
+    "title": "Formulas",
+    "systems": ["free_production"],
+    "rule": "Free production does not start from a blank page — it starts from frames you already own in English and now own in Spanish. A prayer is assembled, not improvised: address God (tú) → invite or thank → petition with pedir/querer que + the flip → seal it (en el nombre de Jesús, amén). Fourteen formula families cover everything you do in a service; master the frames and the free part is just the middle.",
+    "mechanism": [
+      { "input": "address", "op": "tú to God, ustedes to the church", "output": "Señor, Tú estás invitado a este lugar" },
+      { "input": "petition", "op": "te pedimos que + FLIP", "output": "te pedimos que selles y asegures" },
+      { "input": "wish over people", "op": "bare que + subjunctive", "output": "Que el Señor los bendiga y los guarde" },
+      { "input": "confession", "op": "confieso que + perfect", "output": "Confieso que he hablado cuando debí escuchar" },
+      { "input": "seal", "op": "fixed close", "output": "En el nombre de Jesús, amén" }
+    ],
+    "memorize": ["Oremos.", "Oren conmigo.", "Digan esto conmigo.", "Pasen al frente.", "En el nombre de Jesús, amén."],
+    "exception": "The idioms flagged [FLAG] do not translate — they get replaced: 'my heart for this message' → mi anhelo con este mensaje; 'get over ourselves' → dejar el ego a un lado. Drop the image, keep the meaning.",
+    "your_misses": [
+      { "said": "(could not write a prayer cold)", "rule": "assemble: address + petition + seal", "correct": "Señor, bendice este tiempo en Tu Palabra… te pedimos que… en el nombre de Jesús, amén." }
+    ],
+    "trigger_reminder": "The cloze drill blanks the load-bearing verb in each formula — almost always a flip you learned in Unit 1."
+  },
+  {
+    "unit": 7,
+    "title": "The manuscript",
+    "systems": ["free_production", "subjunctive_form", "accents_orthography"],
+    "rule": "The sermon is written in frames you own and corrected by native ears, one paragraph a day. Draft with the systems running: after every trigger, flip the verb; say each word aloud and flag the default-breakers with a tilde; keep se-lo pairs glued; swap the border words. Then read the paragraph to a real person and bring every correction back to Debrief — the manuscript is finished when the corrections stop.",
+    "mechanism": [
+      { "input": "draft a paragraph", "op": "frames from Unit 6 + your outline", "output": "one paragraph in the app" },
+      { "input": "self-edit pass", "op": "triggers → flip; stress → tilde; loanwords → swap", "output": "a clean read-aloud copy" },
+      { "input": "read it to a native speaker", "op": "field assignment, daily", "output": "their corrections, word for word" },
+      { "input": "log each correction", "op": "Debrief → Correction card", "output": "tomorrow's first drill" }
+    ],
+    "memorize": ["Vamos al libro de…", "La Palabra dice…", "Aquí está mi reto para esta semana.", "Vayan en paz, vayan en amor, vayan en victoria."],
+    "exception": "Scripture is never drafted — NBLA strings go in verbatim, from the verified list under Track.",
+    "trigger_reminder": "Week 12 you preach it. Every system in this app exists so that this paragraph-a-day loop works."
   }
 ]

@@ -87,7 +87,7 @@ const ANGLICISMS_SPEC: CsvSpec = {
   file: "corpus_anglicisms.csv",
   out: "anglicisms.json",
   required: ["border_form", "standard_mexican", "context_from_my_sermon", "register"],
-  optional: []
+  optional: ["note", "verified"]
 };
 
 function buildCsv(spec: CsvSpec, requiredOnDisk: boolean): Record<string, string>[] {
