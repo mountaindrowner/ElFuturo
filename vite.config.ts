@@ -3,11 +3,15 @@ import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
 // Deployed at https://<user>.github.io/ElFuturo/
+// GITHACK=1 builds a relative-base, no-service-worker bundle for raw.githack.com previews.
+const githack = process.env.GITHACK === "1";
+
 export default defineConfig({
-  base: "/ElFuturo/",
+  base: githack ? "./" : "/ElFuturo/",
   plugins: [
     react(),
     VitePWA({
+      disable: githack,
       registerType: "autoUpdate",
       includeAssets: ["icons/apple-touch-icon.png"],
       manifest: {
