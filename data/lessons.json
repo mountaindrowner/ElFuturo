@@ -1,0 +1,31 @@
+[
+  {
+    "unit": 1,
+    "title": "The flip",
+    "systems": ["subjunctive_form", "commands"],
+    "rule": "Start from the yo-form, drop the -o, swap the vowel: -ar verbs take e, -er and -ir verbs take a. That stem is the subjunctive, and it is also every ustedes command, every usted command, and every negative command.",
+    "mechanism": [
+      { "input": "sano (sanar)", "op": "-o, +e", "output": "sane → te pedimos que sanes" },
+      { "input": "levanto (levantar)", "op": "-o, +e", "output": "levante → levanten las manos" },
+      { "input": "creo (creer)", "op": "-o, +a", "output": "crea → ora para que crean" },
+      { "input": "tengo (tener)", "op": "-o, +a", "output": "tenga → no tengan miedo" },
+      { "input": "vengo (venir)", "op": "-o, +a", "output": "venga → espero que venga" },
+      { "input": "conozco (conocer)", "op": "-o, +a", "output": "conozca → conozcan a Dios" },
+      { "input": "me acerco (acercarse)", "op": "-o, +e, c→qu", "output": "acerque → acérquese" }
+    ],
+    "memorize": ["sea (ser)", "esté (estar)", "vaya (ir)", "dé (dar)", "sepa (saber)", "haya (haber)"],
+    "exception": "Tú positive commands do not flip. They are the él present form: levanta, cree, ven, di, ten, haz, pon, sal, sé, ve.",
+    "your_misses": [
+      { "said": "te pedimos que sanas", "rule": "sano → sane", "correct": "te pedimos que sanes" },
+      { "said": "quiero que todos saben", "rule": "memorized stem sep-", "correct": "quiero que todos sepan" },
+      { "said": "espero que biene", "rule": "vengo → venga; v not b", "correct": "espero que venga" },
+      { "said": "no creo que esta aquí", "rule": "memorized: esté", "correct": "no creo que esté aquí" },
+      { "said": "ora para que creen", "rule": "creo → crea", "correct": "ora para que crean" },
+      { "said": "levantan sus manos", "rule": "levanto → levante", "correct": "levanten las manos" },
+      { "said": "no tienen miedo", "rule": "tengo → tenga", "correct": "no tengan miedo / no tengas miedo" },
+      { "said": "acercase", "rule": "me acerco → acerque, c→qu", "correct": "acérquese" },
+      { "said": "repienta", "rule": "tú positive = él form of arrepentirse", "correct": "arrepiéntete" }
+    ],
+    "trigger_reminder": "You already place 'que' correctly after querer, pedir, esperar, no creer, para. The trigger layer is not the gap. Only the verb after 'que' changes."
+  }
+]

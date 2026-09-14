@@ -1,0 +1,145 @@
+{
+  "note": "Diagnostic items reused verbatim from the September 10, 2026 diagnostic (§8 of the brief) so scores are comparable. Where a key has more than one acceptable answer, it is an array.",
+  "sections": [
+    {
+      "id": "accents",
+      "system": "accents_orthography",
+      "title": "Rewrite with correct accents and spelling",
+      "type": "rewrite",
+      "items": [
+        { "prompt": "Cuando llegue a la iglesia, el pastor ya estaba orando.", "answers": ["Cuando llegué a la iglesia, el pastor ya estaba orando."] },
+        { "prompt": "Mi mama me pregunto si tu vas a venir el domingo.", "answers": ["Mi mamá me preguntó si tú vas a venir el domingo."] },
+        { "prompt": "Yo se que el no puede, pero ojala que si.", "answers": ["Yo sé que él no puede, pero ojalá que sí."] },
+        { "prompt": "Haber si vienen los jovenes al culto.", "answers": ["A ver si vienen los jóvenes al culto."] },
+        { "prompt": "Hiba a llamarte pero no pude.", "answers": ["Iba a llamarte pero no pude.", "Iba a llamarte, pero no pude."] },
+        { "prompt": "Yo conosco a ese hermano, ay muchos como el.", "answers": ["Yo conozco a ese hermano, hay muchos como él."] }
+      ]
+    },
+    {
+      "id": "present",
+      "system": "present_regular",
+      "title": "Present tense",
+      "type": "short",
+      "items": [
+        { "prompt": "yo saber", "answers": ["sé"], "system": "irregular_yo" },
+        { "prompt": "nosotros tener", "answers": ["tenemos"] },
+        { "prompt": "ustedes ir", "answers": ["van"] },
+        { "prompt": "ella poder", "answers": ["puede"] },
+        { "prompt": "yo conocer", "answers": ["conozco"], "system": "irregular_yo" },
+        { "prompt": "ustedes decir", "answers": ["dicen"] },
+        { "prompt": "nosotros venir", "answers": ["venimos"] },
+        { "prompt": "tú pedir", "answers": ["pides"] }
+      ]
+    },
+    {
+      "id": "ser_estar",
+      "system": "ser_estar",
+      "title": "Ser or estar",
+      "type": "short",
+      "items": [
+        { "prompt": "Jesús ___ el Hijo de Dios.", "answers": ["es"] },
+        { "prompt": "El culto ___ a las diez.", "answers": ["es"] },
+        { "prompt": "Los hermanos ___ cansados hoy.", "answers": ["están"] },
+        { "prompt": "Ella ___ enfermera.", "answers": ["es"] },
+        { "prompt": "La iglesia ___ llena esta noche.", "answers": ["está"] }
+      ]
+    },
+    {
+      "id": "gender",
+      "system": "gender_exceptions",
+      "title": "Article + noun + agreed adjective",
+      "type": "short",
+      "items": [
+        { "prompt": "(grande) problema", "answers": ["el problema grande", "el gran problema"] },
+        { "prompt": "(derecho) mano", "answers": ["la mano derecha"] },
+        { "prompt": "(frío) agua", "answers": ["el agua fría"] },
+        { "prompt": "(santo) día", "answers": ["el día santo", "el santo día"] },
+        { "prompt": "(viejo) foto", "answers": ["la foto vieja"] },
+        { "prompt": "(mexicano) costumbre", "answers": ["la costumbre mexicana"] },
+        { "prompt": "(nuevo) sistema", "answers": ["el sistema nuevo", "el nuevo sistema"] }
+      ]
+    },
+    {
+      "id": "commands",
+      "system": "commands",
+      "title": "Commands",
+      "type": "short",
+      "items": [
+        { "prompt": "Repent! (tú)", "answers": ["arrepiéntete", "¡arrepiéntete!"] },
+        { "prompt": "Let's pray.", "answers": ["oremos"] },
+        { "prompt": "Raise your hands. (church)", "answers": ["levanten las manos", "levanten sus manos"] },
+        { "prompt": "Don't be afraid. (tú)", "answers": ["no tengas miedo", "no temas"] },
+        { "prompt": "Come forward. (usted)", "answers": ["pase al frente"] },
+        { "prompt": "Tell him the truth. (tú)", "answers": ["dile la verdad"] }
+      ]
+    },
+    {
+      "id": "subjunctive",
+      "system": "subjunctive_form",
+      "title": "Subjunctive",
+      "type": "short",
+      "items": [
+        { "prompt": "May God bless you. (tú)", "answers": ["que Dios te bendiga", "Dios te bendiga"] },
+        { "prompt": "We ask you, Lord, to heal her.", "answers": ["te pedimos, Señor, que la sanes", "te pedimos Señor que la sanes", "te pedimos que la sanes", "Señor, te pedimos que la sanes"] },
+        { "prompt": "I want you all to know that God loves you.", "answers": ["quiero que todos sepan que Dios los ama", "quiero que sepan que Dios los ama", "quiero que todos ustedes sepan que Dios los ama"] },
+        { "prompt": "I hope he comes on Sunday.", "answers": ["espero que venga el domingo", "ojalá que venga el domingo", "espero que él venga el domingo"] },
+        { "prompt": "I don't think he's here.", "answers": ["no creo que esté aquí", "no creo que él esté aquí"] },
+        { "prompt": "Pray so that they believe.", "answers": ["ora para que crean", "oren para que crean", "ora para que ellos crean"] }
+      ]
+    },
+    {
+      "id": "story",
+      "system": "preterite_imperfect",
+      "title": "Story: preterite or imperfect",
+      "type": "short",
+      "intro": "Cuando Jesús ___(llegar) al pueblo, la gente lo ___(esperar). Un hombre se le ___(acercar) y le ___(pedir) ayuda. ___(ser) ciego, y siempre se ___(sentar) junto al camino. Jesús lo ___(sanar), y todos ___(alabar) a Dios.",
+      "items": [
+        { "prompt": "Cuando Jesús ___ (llegar) al pueblo…", "answers": ["llegó"] },
+        { "prompt": "…la gente lo ___ (esperar).", "answers": ["esperaba", "estaba esperando"] },
+        { "prompt": "Un hombre se le ___ (acercar)…", "answers": ["acercó"] },
+        { "prompt": "…y le ___ (pedir) ayuda.", "answers": ["pidió"] },
+        { "prompt": "___ (ser) ciego…", "answers": ["era"] },
+        { "prompt": "…y siempre se ___ (sentar) junto al camino.", "answers": ["sentaba"] },
+        { "prompt": "Jesús lo ___ (sanar)…", "answers": ["sanó"] },
+        { "prompt": "…y todos ___ (alabar) a Dios.", "answers": ["alabaron"] }
+      ]
+    },
+    {
+      "id": "pronouns",
+      "system": "object_pronouns",
+      "title": "Pronouns, por and para",
+      "type": "short",
+      "items": [
+        { "prompt": "I gave it to him. (the Bible)", "answers": ["se la di", "yo se la di"] },
+        { "prompt": "God sent him for us.", "answers": ["Dios lo envió por nosotros", "Dios lo mandó por nosotros"] },
+        { "prompt": "This message is for all of you.", "answers": ["este mensaje es para todos ustedes", "este mensaje es para ustedes"] },
+        { "prompt": "I'm going to tell it to you all.", "answers": ["se lo voy a decir", "voy a decírselo", "se los voy a decir", "voy a decírselos"] }
+      ]
+    },
+    {
+      "id": "border",
+      "system": "anglicism_replacement",
+      "title": "Border → standard Mexican",
+      "type": "rewrite",
+      "items": [
+        { "prompt": "Voy a parquear la troca en la yarda.", "answers": ["Voy a estacionar la camioneta en el patio.", "Voy a estacionar la camioneta en el jardín."] },
+        { "prompt": "Apliqué por el trabajo ayer.", "answers": ["Solicité el trabajo ayer.", "Solicité el empleo ayer.", "Presenté una solicitud para el trabajo ayer."] },
+        { "prompt": "¿Me das un raite al culto?", "answers": ["¿Me llevas al culto?", "¿Me das un aventón al culto?"] },
+        { "prompt": "Te llamo pa' atrás.", "answers": ["Te devuelvo la llamada.", "Luego te llamo.", "Te regreso la llamada."] },
+        { "prompt": "¿Me wachas a los niños un ratito?", "answers": ["¿Me cuidas a los niños un ratito?", "¿Me echas un ojo a los niños un ratito?"] },
+        { "prompt": "Vamos a lonchar después del servicio.", "answers": ["Vamos a almorzar después del servicio.", "Vamos a comer después del servicio."] }
+      ]
+    },
+    {
+      "id": "free",
+      "system": "free_production",
+      "title": "Free production (scored by your native corrector, 0–2 each)",
+      "type": "manual",
+      "manual": true,
+      "items": [
+        { "prompt": "Write an opening prayer (3–4 sentences)." },
+        { "prompt": "Write an altar call (3 sentences)." }
+      ]
+    }
+  ]
+}
